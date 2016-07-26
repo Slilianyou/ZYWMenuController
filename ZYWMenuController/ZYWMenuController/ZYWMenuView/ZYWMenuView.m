@@ -165,7 +165,7 @@ static NSString *kY = @"curveY";
                                           _curveView.frame.size.width,
                                           _curveView.frame.size.height);
             
-            if (point.x > 150.0f && !_isOpeningMenu) {
+            if (point.x > 80.0f && !_isOpeningMenu) {
                 [self trigger];
                 _isOpeningMenu = YES;
             }
@@ -355,9 +355,7 @@ static NSString *kY = @"curveY";
         
         [UIView animateWithDuration:0.3 animations:^{
             blurView.alpha = 0.6f;
-            
         }];
-        
         
         [self beforeAnimation];
         [UIView animateWithDuration:0.7 delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:2.0f options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction animations:^{
@@ -395,6 +393,7 @@ static NSString *kY = @"curveY";
             menuButton.transform =  CGAffineTransformIdentity;
             _isOpeningMenu = NO;
         } completion:^(BOOL finished) {
+            NSLog(@"animation ended!!");
         }];
         
     }

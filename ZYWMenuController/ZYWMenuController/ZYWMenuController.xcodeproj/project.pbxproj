@@ -483,7 +483,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: 83203063@qq.com (RKR4U3LTLN)";
 				INFOPLIST_FILE = ZYWMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.yearwen.MiaowShow;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.yearwen.ZYWMenuController;
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b9ae95e9-4c42-4e32-bd1b-e142e659b45f";
 			};
@@ -497,7 +501,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 83203063@qq.com (RKR4U3LTLN)";
 				INFOPLIST_FILE = ZYWMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.yearwen.MiaowShow;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.yearwen.ZYWMenuController;
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b9ae95e9-4c42-4e32-bd1b-e142e659b45f";
 			};
@@ -568,6 +576,10 @@
 				3A16ED821D449D1C006A1D0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
+			defaultConfigurationName = Release;
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 		};
 		3A16ED831D449D1C006A1D0F /* Build configuration list for PBXNativeTarget "ZYWMenuControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +588,10 @@
 				3A16ED851D449D1C006A1D0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
+			defaultConfigurationName = Release;
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 		};
 		3A16ED861D449D1C006A1D0F /* Build configuration list for PBXNativeTarget "ZYWMenuControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +600,10 @@
 				3A16ED881D449D1C006A1D0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
+			defaultConfigurationName = Release;
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 		};
 /* End XCConfigurationList section */
 	};

@@ -206,6 +206,10 @@ static NSString *kY = @"curveY";
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 -(void)beganAimation{
     
     // CADisplayLink默认每秒运行60次calculatePath是算出在运行期间_curveView的坐标，从而确定_shapeLayer的形状
@@ -229,9 +233,14 @@ static NSString *kY = @"curveY";
 {
     // 更新_shapeLayer形状
     UIBezierPath *tPath = [UIBezierPath bezierPath];
+<<<<<<< HEAD
     [tPath moveToPoint:CGPointMake(0, 0)];                              // r1点
     [tPath addLineToPoint:CGPointMake(0, SYS_DEVICE_HEIGHT)];            // r2点
     [tPath addLineToPoint:CGPointMake(0,  SYS_DEVICE_HEIGHT)];  // r4点
+=======
+    [tPath moveToPoint:CGPointMake(0, 0)];                             
+    [tPath addLineToPoint:CGPointMake(0, SYS_DEVICE_HEIGHT)];
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
     [tPath addQuadCurveToPoint:CGPointMake(0, 0)
                   controlPoint:CGPointMake(_curveX, _curveY)]; // r3,r4,r5确定的一个弧线
     [tPath closePath];
@@ -326,6 +335,12 @@ static NSString *kY = @"curveY";
     [_menuColor set];
     CGContextFillPath(context);
     
+<<<<<<< HEAD
+=======
+    [self updateShapeLayerPath];
+    [self calculatePath];
+    
+>>>>>>> 09e66999627a9ee361e6bbc313fdc6c096c3ad18
 }
 
 
